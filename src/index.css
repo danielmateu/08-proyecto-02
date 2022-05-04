@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* NAVEGADOR */
+
+header{
+  background: lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  color:#3e7dcf;
+  transition: .2s ease-in;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -ms-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.logo:hover{
+  color:#2f5d9a;
+}
+
+nav > ul{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  
+}
+
+nav > ul > li{
+  list-style: none;
+  margin: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(65, 56, 56);
+  transition: .2s ease-in;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -ms-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+}
+
+a:hover{
+  color:azure;
+}
+
+/* FOOTER */
+
+footer{
+  background:#3e7dcf;
+  color: rgb(198, 198, 198);
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > ul{
+  display: flex;
+  
+}
+
+footer > ul > li{
+  list-style: none;
+  margin-right: 45px;
+}
+
+footer > ul > li > a{
+  transition: .2s ease-in;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -ms-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+}
+
+footer > ul > li > a:hover{
+  color: rgb(213, 213, 213);
+}
+
+
+
+
+
+
+
+
+
+
+
