@@ -8,6 +8,7 @@ import {Contacto} from '../components/Contacto'
 import { Footer } from '../components/layout/Footer';
 import { HeaderNav } from '../components/layout/HeaderNav';
 
+
 export const MisRutas = () => {
   return (
     <BrowserRouter>
@@ -25,10 +26,13 @@ export const MisRutas = () => {
         <Route path='/servicios' element = {<Servicios/>}/>
         <Route path='/curriculum' element = {<Curriculum/>}/>
         <Route path='/contacto' element = {<Contacto/>}/>
+        <Route path='*' element = {
+          <div className='page'>
+            <h1 className='heading'>Error 404 </h1>
+          </div>
+        }/>
       </Routes>
     </section>
-    
-
     
     {/* Pie de Pagina - FOOTER */}
     <Footer/>
