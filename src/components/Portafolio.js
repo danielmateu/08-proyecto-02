@@ -11,16 +11,18 @@ export const Portafolio = () => {
         
       {
       trabajos.map(trabajo =>{
-        console.log(trabajo.img)
+        
         return(
-      <article key={trabajo.id}>
+      <article className="articulo" key={trabajo.id}>
+          <div className="marsk">
+            <img src={`/images/${trabajo.id}.png`} alt={trabajo.descripcion}></img>
+          </div>
           <span>{trabajo.categoria}</span>
-          
           <h2><Link to={`proyecto/${trabajo.id}`}>{trabajo.nombre}</Link></h2>
           <h3>{trabajo.tecnologias}</h3>
           <p>{trabajo.descripcion}</p>
       </article>
-        )
+        );
       }    
       )
       }
