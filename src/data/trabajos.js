@@ -35,7 +35,7 @@ export const trabajos = [
     },{
         'id':'casadelamareterra',
         'nombre': 'La Casa de la Mare Terra',
-        'url': 'casadelamareterra.com',
+        'url': 'sites.google.com/site/lacasadelamareterra/',
         'tecnologias': 'HTML,CSS,JS',
         'categoria': 'Desarrollo web',
         'descripcion': 'lorem ipsum dolor sit amet, consectetur lorem, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim ven lorem ipsum dolor sit amet, consectetur'
